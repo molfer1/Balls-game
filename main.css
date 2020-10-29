@@ -1,0 +1,142 @@
+* {
+    background: #000;
+    margin: 0 auto;
+    color: #AAA;
+    font-family: 'Roboto', sans-serif;
+}
+
+#game {
+    position: absolute;
+    left: calc(50% - 378px);
+    top:80px;
+    width: 760px;
+    height: 840px;
+}
+
+#board {
+    position: absolute;
+    left: 20px;
+    margin-top:20px;
+    width: 720px;
+    height: 720px;
+    background: #111;
+    border-radius: 38px;
+}
+
+.tile {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    background: #333;
+    border-radius: 20px;
+}
+.tile:hover{
+    cursor: pointer;
+    opacity:0.75;
+    transition: 0.2s;
+}
+.tileStart{
+    background-color:#8FBC8F !important;
+    opacity:1;
+    transition:0.2s;
+}
+.tileEnd{
+    background-color:red !important;
+}
+.path{
+    opacity:0.5;
+}
+.ball{
+    position:absolute;
+    left:13px;
+    top:13px;
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+}
+
+.blue{
+    background:blue;
+}
+.red{
+    background:red;
+}
+.orange{
+    background:orange;
+}
+.green{
+    background:green;
+}
+.yellow{
+    background:yellow;
+}
+.purple{
+    background:purple;
+}
+.white{
+    background:white;
+}
+h1{
+    color:#eee;
+    text-align:center;
+    line-height:40px;
+}
+#gameInfo{
+    display: inline;
+}
+h3{
+    text-align:center;
+    line-height:30px;
+}
+h4{
+    text-align:center;
+    line-height:30px;
+}
+.ballPreview{
+    width:30px !important;
+    margin-left:5px;
+    height: 30px !important;
+    border-radius: 15px;
+    display: inline-block;
+}
+.blur{
+    filter:blur(10px);
+}
+#gameOverScreen{
+    position:fixed;
+    left: calc(50% - 250px);
+    top:300px;
+    width:500px;
+    height:200px;
+    border-radius: 20px;
+}
+.title{
+    margin-top:20px;
+    text-align: center;
+}
+.finalScore{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resetGameBt{
+    position:absolute;
+    outline:none;
+    font-size:1em;
+    left:calc(50% - 75px);
+    background-color:#333;
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+}
+.resetGameBt:hover{
+    opacity:0.7;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
